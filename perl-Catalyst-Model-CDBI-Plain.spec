@@ -6,7 +6,7 @@
 %define	pdir	Catalyst
 %define	pnam	Model-CDBI-Plain
 Summary:	Catalyst::Model::CDBI::Plain - A Plain base class for Class::DBI models
-#Summary(pl):	
+Summary(pl):	Catalyst::Model::CDBI::Plain - klasa bazowa Plain dla modeli Class::DBI
 Name:		perl-Catalyst-Model-CDBI-Plain
 Version:	0.02
 Release:	1
@@ -32,8 +32,13 @@ module can be used with existing Class::DBI classes, so that they can
 be used with Catalyst, or as a way of writing CDBI-based Model classes
 within Catalyst.
 
-# %description -l pl
-# TODO
+%description -l pl
+Catalyst::Model::CDBI::Plain to klasa Model dla Catalysta przeznaczona
+do u¿ywania z podanymi przez u¿ytkownika klasami Class::DBI. Nie
+ustawia niczego automatycznie ani nie tworzy relacji - pozostawia to
+u¿ytkownikowi. Ten modu³ mo¿e byæ u¿ywany z istniej±cymi klasami
+Class::DBI, które w ten sposób mog± byæ u¿ywane z Catalystem, albo
+jako sposób pisania klas Model opartych na CDBI bez Catalysta.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

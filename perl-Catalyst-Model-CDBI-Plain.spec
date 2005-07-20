@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Catalyst
 %define	pnam	Model-CDBI-Plain
-Summary:	Catalyst::Model::CDBI::Plain - A Plain base class for Class::DBI models
+Summary:	Catalyst::Model::CDBI::Plain - a Plain base class for Class::DBI models
 Summary(pl):	Catalyst::Model::CDBI::Plain - klasa bazowa Plain dla modeli Class::DBI
 Name:		perl-Catalyst-Model-CDBI-Plain
 Version:	0.02

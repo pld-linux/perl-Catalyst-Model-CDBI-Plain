@@ -8,13 +8,13 @@
 Summary:	Catalyst::Model::CDBI::Plain - a Plain base class for Class::DBI models
 Summary(pl):	Catalyst::Model::CDBI::Plain - klasa bazowa Plain dla modeli Class::DBI
 Name:		perl-Catalyst-Model-CDBI-Plain
-Version:	0.02
+Version:	0.03
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://search.cpan.org/CPAN/authors/id/J/JE/JESTER/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	ec3e400333db09cf7536c40233743783
+Source0:	http://search.cpan.org/CPAN/authors/id/M/MR/MRAMBERG/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	7f95c759b3375d0f588818ee95d4447e
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}

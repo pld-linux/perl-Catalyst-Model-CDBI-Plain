@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Catalyst
 %define	pnam	Model-CDBI-Plain
+%include	/usr/lib/rpm/macros.perl
 Summary:	Catalyst::Model::CDBI::Plain - a Plain base class for Class::DBI models
 Summary(pl.UTF-8):	Catalyst::Model::CDBI::Plain - klasa bazowa Plain dla modeli Class::DBI
 Name:		perl-Catalyst-Model-CDBI-Plain
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/M/MR/MRAMBERG/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	7f95c759b3375d0f588818ee95d4447e
+URL:		http://search.cpan.org/dist/Catalyst-Model-CDBI-Plain/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
